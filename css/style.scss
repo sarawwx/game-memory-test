@@ -1,0 +1,76 @@
+$brown: #1F0C07;
+$blue: #2676A1;
+$yellow: #e9b64a;
+$rose: #FB5B68;
+
+
+body
+{
+    margin: 0;
+    background-color: $brown;
+    color: $yellow;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+
+    h1
+    {
+        color: $rose;
+        font-size: 100px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+
+.board
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card
+{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 3px;
+    background-image: url("../img/carta.png");
+    background-size: 133px;
+    border: 4px solid $blue;
+    border-radius: 14px;
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all .1s ease-in-out;
+
+    .cardA
+    {
+        width: 125px;
+        height: 125px;
+        display: inline-block;
+        margin: 3px;
+        background-image: url("img/carta.png");
+        background-size: 133px;
+        border: 4px solid $yellow;
+        border-radius: 14px;
+        cursor: pdefault;
+        filter: brightness(100%);
+        transition: all .1s ease-in-out;
+    }
+}
+
+.card:hover
+{
+    border: 4px solid $yellow;
+    filter: brightness(100%);
+}
+
+.score
+{
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
