@@ -39,7 +39,7 @@ body h1 {
   transition: all .1s ease-in-out;
 }
 
-.card .cardA {
+.cardA {
   width: 125px;
   height: 125px;
   display: inline-block;
